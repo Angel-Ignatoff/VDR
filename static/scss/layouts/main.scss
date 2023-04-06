@@ -1,0 +1,105 @@
+/* Sign up form */
+.signup-content {
+    background: #fff;
+    border-radius: 10px;
+    padding: 50px 85px;
+    }
+    
+    .form-group {
+    overflow: hidden;
+    margin-bottom: 20px;
+    }
+    
+    .form-input {
+    width: 100%;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    padding: 17px 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+    &::placeholder {
+    font-weight: 500;
+    }
+    &:focus {
+    border: 1px solid transparent;
+    border-image-source: linear-gradient(to right, #9facde, #74ebd5);
+    border-image-slice: 1;
+    border-radius: 5px;
+    &::placeholder {
+    color: #000;
+    }
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    }
+    }
+    
+    .form-submit {
+    width: 100%;
+    border-radius: 5px;
+    padding: 17px 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    background-image: linear-gradient(to left, #74ebd5, #9face6);
+    }
+    
+    .checkbox-input {
+    display: none;
+    }
+    
+    .checkbox-label {
+    display: inline-block;
+    margin-top: 7px;
+    margin-bottom: 25px;
+    }
+
+    .checkbox-span {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    margin-right: 15px;
+    margin-bottom: 3px;
+    border: 1px solid #ebebeb;
+    border-radius: 2px;
+    background: #fff;
+    background-image: linear-gradient(#fff, #fff);
+    vertical-align: bottom;
+    }
+    .checkbox-input:checked + .checkbox-label > .checkbox-span {
+    background-image: linear-gradient(#fff, #fff);
+    }
+    .checkbox-input:checked + .checkbox-label > .checkbox-span:before {
+    content: '\f26b';
+    display: block;
+    color: #000;
+    font-size: 11px;
+    line-height: 1.2;
+    text-align: center;
+    font-family: 'Material-Design-Iconic-Font';
+    font-weight: bold;
+    }
+    
+    .label-agree-term {
+    font-size: 12px;
+    font-weight: 600;
+    color: #555;
+    }
+    .term-service {
+    color: #555;
+    }
+    
+    .loginhere {
+    color: #555;
+    font-weight: 500;
+    text-align: center;
+    margin: 91px 0 5px;
+    }
+
+    .loginhere-link {
+    font-weight: 700;
+    }
